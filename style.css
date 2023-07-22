@@ -34,6 +34,15 @@ body {
     letter-spacing: 3px;
 }
 
+.meme-generator .generate-meme-btn:active {
+    padding: 20px 80px;
+    border-left: 8px solid;
+    border-right: 8px solid;
+    background-color: rgb(25, 126, 92);
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
 .meme-generator .meme-auhtor {
     margin: 8px
 }
