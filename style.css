@@ -1,0 +1,39 @@
+body {
+    background-image: url(yoasobi_idol_uwu.png);
+    background-size: cover;
+}
+
+.meme-generator {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.meme-generator img {
+    height: 340px;
+    object-fit: cover;
+}
+
+.meme-generator .generate-meme-btn {
+    padding: 40px 80px;
+    border:  none;
+    border-left: 4px solid brown;
+    border-right: 4px solid brown;
+    margin: 24px 0;
+    font-size: 30px;
+    color:brown;
+    background: aquamarine;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.meme-generator .generate-meme-btn:hover {
+    padding: 25px 120px;
+    border-left: 8px solid;
+    border-right: 8px solid;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.meme-generator .meme-auhtor {
+    margin: 8px
+}
